@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Family Sharing"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        android:text="You can add members to your family sharing or leave guest groups by tapping settings"
+        android:textStyle="bold" />
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#2348FF"
+        app:cardCornerRadius="20dp">
+
+
+        <EditText
+            android:id="@+id/textemailinput"
+            android:layout_width="230dp"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#FBF6F6"
+            android:drawableTint="#0D18EA"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Add Member Email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="textStart"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textStyle="italic" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/saveAddBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="Save"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="140dp"/>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="To join others wallets tell them to invite"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+
+        />
+
+
+
+
+
+</LinearLayout>
